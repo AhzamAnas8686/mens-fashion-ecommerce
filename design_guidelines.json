@@ -1,0 +1,136 @@
+{
+  "project_name": "AR Collection",
+  "design_philosophy": {
+    "identity": "The Anti-AI Designer (E1)",
+    "core_principle": "Digital Showroom - Fetishize the Product, Drive the Visit.",
+    "emotional_tone": "Premium, Masculine, Confident, Timeless, 'Old Money' meets Modern City.",
+    "visual_style": "Sharp Luxury. High contrast. Texture over flat colors. Gold accents that feel metallic, not yellow."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Playfair Display, serif",
+      "body": "Manrope, sans-serif",
+      "accent": "Bodoni Moda, serif"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-medium tracking-tight leading-[1.1]",
+      "h2": "text-4xl md:text-5xl font-normal tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed text-muted-foreground",
+      "caption": "text-xs uppercase tracking-[0.2em] font-bold text-accent"
+    },
+    "installation_guide": "Import fonts via Google Fonts in index.css: @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');"
+  },
+  "colors": {
+    "strategy": "Dual Theme - Default Dark for Luxury, Light for Day Shopping.",
+    "palette": {
+      "dark": {
+        "background": "0 0% 4%",
+        "foreground": "0 0% 98%",
+        "card": "222 15% 10%",
+        "card_foreground": "0 0% 98%",
+        "primary": "46 64% 52%",
+        "primary_foreground": "0 0% 9%",
+        "secondary": "222 10% 15%",
+        "secondary_foreground": "0 0% 98%",
+        "accent": "46 64% 52%",
+        "border": "222 10% 20%",
+        "input": "222 10% 20%"
+      },
+      "light": {
+        "background": "220 20% 97%",
+        "foreground": "222 47% 11%",
+        "card": "0 0% 100%",
+        "card_foreground": "222 47% 11%",
+        "primary": "222 47% 11%",
+        "primary_foreground": "0 0% 98%",
+        "secondary": "210 40% 96.1%",
+        "secondary_foreground": "222 47% 11%",
+        "accent": "46 64% 52%",
+        "border": "214 32% 91%",
+        "input": "214 32% 91%"
+      }
+    },
+    "hex_references": {
+      "gold_primary": "#D4AF37",
+      "navy_dark": "#02040A",
+      "navy_card": "#151823",
+      "white_off": "#F8FAFC"
+    },
+    "gradients": {
+      "gold_shine": "bg-gradient-to-r from-[#D4AF37] via-[#F3E5AB] to-[#D4AF37] bg-[length:200%_auto] hover:bg-right transition-all duration-500",
+      "dark_overlay": "bg-gradient-to-t from-black/90 via-black/50 to-transparent"
+    }
+  },
+  "layout_strategies": {
+    "spacing_scale": "Generous. Use p-8 to p-24. Avoid cramped lists.",
+    "container_width": "max-w-7xl mx-auto px-4 md:px-8",
+    "border_radius": "Sharp. rounded-none or rounded-sm. No big rounded-xl.",
+    "grid_systems": {
+      "hero_bento": "grid grid-cols-1 md:grid-cols-12 gap-4 h-auto md:h-[85vh]",
+      "product_grid": "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12"
+    }
+  },
+  "ui_components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-none uppercase tracking-widest font-bold text-sm h-12 px-8 transition-all hover:scale-[1.02]",
+      "outline": "border border-input bg-transparent hover:bg-accent hover:text-accent-foreground rounded-none uppercase tracking-widest text-sm h-12 px-8",
+      "ghost": "hover:bg-accent hover:text-accent-foreground rounded-none"
+    },
+    "cards": {
+      "product": "group relative bg-transparent border-none rounded-none overflow-hidden",
+      "feature": "bg-card border border-white/5 p-8 relative overflow-hidden group hover:border-accent/30 transition-colors"
+    },
+    "navigation": {
+      "style": "Sticky glassmorphism. Backdrop-blur-xl bg-background/80 border-b border-white/10",
+      "links": "font-medium text-sm uppercase tracking-widest hover:text-accent transition-colors"
+    }
+  },
+  "features_and_content": {
+    "essential_pages": [
+      "Home (Hero, Featured, Why Visit, Map)",
+      "Catalog (Filterable Grid, Quick View)",
+      "Product Detail (Zoom, Specifications, 'Reserve' CTA)",
+      "Visit Us (Map, Hours, Interior Gallery)"
+    ],
+    "conversion_focus": {
+      "primary_cta": "Reserve in Store",
+      "secondary_cta": "WhatsApp Enquiry",
+      "trust_badges": ["Authentic Brands", "Personal Styling", "Alterations Included"]
+    }
+  },
+  "images_and_assets": {
+    "hero_section": {
+      "main_hero": "https://images.pexels.com/photos/15092610/pexels-photo-15092610.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Elegant man in black suit posing confidently",
+      "secondary_hero": "https://images.unsplash.com/photo-1618371690240-e0d46eead4b8?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "alt": "Man in sunglasses fashion editorial"
+    },
+    "categories": {
+      "suits": "https://images.unsplash.com/photo-1719835491911-99dd30f3f2dc?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "casual": "https://images.pexels.com/photos/18153489/pexels-photo-18153489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "accessories": "https://images.pexels.com/photos/11676702/pexels-photo-11676702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "watches": "https://images.pexels.com/photos/32879353/pexels-photo-32879353.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    "showroom": {
+      "interior": "https://images.pexels.com/photos/5264904/pexels-photo-5264904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "racks": "https://images.unsplash.com/photo-1768145488790-185e20abfd08?crop=entropy&cs=srgb&fm=jpg&q=85"
+    }
+  },
+  "instructions_to_main_agent": [
+    "PHASE 1: THEME SETUP - Update index.css with the provided HSL variables immediately. Ensure dark mode is default or toggled correctly via class.",
+    "PHASE 2: LAYOUT - Build the 'Bento Grid' Hero. Do not use a simple slider. Use a grid of images (Man in suit, Watch close up, Store interior) to show breadth of offering immediately.",
+    "PHASE 3: PRODUCT CARD - The product card must NOT have a 'Add to Cart' button. It should have 'View Details' and a WhatsApp icon corner button.",
+    "PHASE 4: MAP - Embed a Google Map iframe in the 'Visit Us' section. Make it grayscale in CSS (`filter: grayscale(100%) invert(92%) contrast(83%);`) to match the dark theme.",
+    "PHASE 5: DETAILS - Add a 'Reserve via WhatsApp' sticky button on mobile screens.",
+    "CRITICAL: Do not use gradients for backgrounds. Use solid dark colors or subtle noise textures. Use gradients ONLY for text or button hover states."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI Slop' aesthetics (generic centered text, standard blue/purple gradients).",
+    "Use 'Playfair Display' for all Headings (H1-H4). Use 'Manrope' for body text.",
+    "Buttons must be sharp (rounded-sm or rounded-none). No pill buttons.",
+    "All images must have 80-90% brightness filter in dark mode to prevent eye strain, lifting to 100% on hover.",
+    "Interactive elements must have `data-testid` attributes."
+  ]
+}
+
